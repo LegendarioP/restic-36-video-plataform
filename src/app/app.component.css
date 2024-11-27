@@ -1,0 +1,24 @@
+.menu > div {
+    width: 26px;
+    height: 1px;
+    background: #ffffff;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: none;
+    padding: 10px;
+}
+
+header {
+    background: green;
+    padding: 0 40px 0 34px;
+}
+
+.left-side-header {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}

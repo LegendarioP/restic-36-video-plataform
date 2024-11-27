@@ -10,4 +10,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'restictube';
+  imagePath = 'restic-logo.png';
 }
+
