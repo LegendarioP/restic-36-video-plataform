@@ -12,12 +12,13 @@
     padding: 10px;
 }
 
-header {
-    background: green;
+header{
+    background: var(--background_color);
     padding: 0 40px 0 34px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--borders_color);
 }
 
 .left-side-header {

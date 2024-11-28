@@ -1,0 +1,29 @@
+.side-menu {
+    width: 250px;
+    display: flex;
+    background: var(--background_color);
+    height: 100%;
+    border: 1px solid var(--borders_color);
+    padding: 31px 25px;
+}
+
+.side-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.side-menu li {
+    padding: 12px 17px;
+    background: blue;
+    border-radius: 8px;
+}
+
+.side-menu a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+
