@@ -48,3 +48,8 @@ app-root {
 a {
     text-decoration: none;
 }
+
+p,
+h3 {
+    margin: 0;
+}
