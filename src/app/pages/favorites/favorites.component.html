@@ -1,1 +1,21 @@
-<p>favorites works!</p>
+<h3 class="favorite-area">Seus videos favoritos</h3>
+<section class="video-contaienr">
+    @for(video of favoritedVideosToFetch; track video.id){
+        <div class="card-video">
+            <div class="imagem-field">
+                <a href="/video/{{video.id}}">
+                    <img src="{{video.thumbnail}}" alt="{{video.title}}">
+                </a>
+            </div>
+    
+            <div class="info-area">
+                <a href="/video/{{video.id}}">
+                    <h2 class="title">{{video.title}}</h2>
+                </a>
+                <div class="video-more-info">
+                    {{video.description}}
+                </div>
+            </div>
+        </div>
+    }
+</section>

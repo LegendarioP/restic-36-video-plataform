@@ -25,6 +25,10 @@ export class FavoriteService {
   removeFavorite(id: string) {
     return this.httpClient.delete<Favorite>(`${this.apiUrl}/${id}`);
   }
+
+  getAllFavUser(id: string) {
+    return this.httpClient.get<Favorite[]>(`${this.apiUrl}?userId=${id}`)
+  }
 }
 
 

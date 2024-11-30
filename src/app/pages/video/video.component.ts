@@ -39,7 +39,6 @@ export class VideoComponent implements OnInit {
 
   public isFavorited?: boolean
   
-  // public userId:
 
   ngOnInit(): void {
     this.id = this.router.snapshot.paramMap.get('id');
@@ -58,18 +57,13 @@ export class VideoComponent implements OnInit {
         }
       })
 
-      // this.UserService
       this.auth.user$.subscribe((profile) => {
         this.userId = String(profile?.sub).split("|")[1]
-        this.favoriteService.getFavoritedVideo().subscribe((result) => {
-          // console.log(result)
-          result.filter((favorite) => {
-            return this.isFavorited = String(favorite.videoId) == String(this.id) &&  String(favorite.userId) == String(profile?.sub).split("|")[1]
-          })
+        this.favoriteService.getAllFavUser(this.userId).subscribe((result) => {
+          result.find((favorite) => { return  this.isFavorited = String(favorite.videoId) == String(this.id)})
           if(this.isFavorited){
             this.favorite = result.find((favorite) =>  String(favorite.videoId) === String(this.id) && String(favorite.userId) === String(profile?.sub).split("|")[1]
           )
-          // console.log(this.favorite)
         }
         })
       })
@@ -80,12 +74,11 @@ export class VideoComponent implements OnInit {
 
 
   
-  addFavorite() {
+  toggleFavorite() {
     if(this.userId){
       if(!this.isFavorited){
         this.favoriteService.addNewFavorite({ userId: String(this.userId), videoId: Number(this.id) }).subscribe({
           next: (data) => {
-            // console.log(data)
             this.favorite = data
             this.isFavorited = true
           }

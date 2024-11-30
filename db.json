@@ -32,7 +32,7 @@
       "description": "The official video for “Never Gonna Give You Up” by Rick Astley",
       "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
-      "views": 1200000091,
+      "views": 1200000108,
       "uploadedAt": "2009-10-25T07:57:33Z"
     },
     {
@@ -41,7 +41,7 @@
       "description": "Mark Ronson's official music video for 'Uptown Funk' ft. Bruno Mars.",
       "url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
       "thumbnail": "https://i.ytimg.com/vi/3JZ_D3ELwOQ/hqdefault.jpg",
-      "views": 4000000004,
+      "views": 4000000007,
       "uploadedAt": "2014-11-19T20:00:11Z"
     },
     {
@@ -50,7 +50,7 @@
       "description": "The official music video for Smash Mouth's hit song 'All Star'.",
       "url": "https://www.youtube.com/watch?v=L_jWHffIx5E",
       "thumbnail": "https://i.ytimg.com/vi/L_jWHffIx5E/hqdefault.jpg",
-      "views": 300000002,
+      "views": 300000007,
       "uploadedAt": "2009-06-16T00:00:00Z"
     },
     {
@@ -59,7 +59,7 @@
       "description": "Videoclipe oficial de 'Hear Me Now' por Alok, Zeeba e Bruno Martini.",
       "url": "https://www.youtube.com/watch?v=JVpTp8IHdEg",
       "thumbnail": "https://i.ytimg.com/vi/JVpTp8IHdEg/hqdefault.jpg",
-      "views": 400000017,
+      "views": 400000021,
       "uploadedAt": "2016-11-03T12:00:00Z"
     },
     {
@@ -194,7 +194,7 @@
       "description": "Áudio oficial de 'Dream On' do Aerosmith.",
       "url": "https://www.youtube.com/watch?v=89dGC8de0CA",
       "thumbnail": "https://i.ytimg.com/vi/89dGC8de0CA/hqdefault.jpg",
-      "views": 200000000,
+      "views": 200000002,
       "uploadedAt": "2013-10-10T12:00:00Z"
     },
     {
@@ -212,7 +212,7 @@
       "description": "Aprenda tudo sobre Angular, desde os conceitos básicos até técnicas avançadas, neste curso completo de desenvolvimento web.",
       "url": "https://www.youtube.com/watch?v=3qBXWUpoPHo",
       "thumbnail": "https://img.youtube.com/vi/3qBXWUpoPHo/hqdefault.jpg",
-      "views": 900000000,
+      "views": 900000001,
       "uploadedAt": "2009-06-16T12:00:00Z"
     },
     {
@@ -271,9 +271,29 @@
       "id": "afe8"
     },
     {
-      "id": "8c85",
+      "id": "b28c",
+      "userId": "674b7e90a11207c14c15a881",
+      "videoId": 5
+    },
+    {
+      "id": "6879",
+      "userId": "674b7e90a11207c14c15a881",
+      "videoId": 3
+    },
+    {
+      "id": "aeba",
+      "userId": "674b7e90a11207c14c15a881",
+      "videoId": 2
+    },
+    {
+      "id": "19a6",
       "userId": "674b7e90a11207c14c15a881",
       "videoId": 1
+    },
+    {
+      "id": "7274",
+      "userId": "674b7e90a11207c14c15a881",
+      "videoId": 20
     }
   ]
 }

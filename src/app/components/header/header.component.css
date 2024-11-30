@@ -65,3 +65,19 @@ header{
     align-items: center;
     gap: 34px;
 }
+
+
+.right-side-header button {
+    background: var(--restic_blue);
+    color: var(--text_color);
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: normal;
+}
+.right-side-header button:hover {
+    background: var(--restic_purple);
+}

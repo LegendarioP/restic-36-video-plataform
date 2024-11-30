@@ -18,8 +18,10 @@
 }
 .side-menu li {
     padding: 12px 17px;
-    background: blue;
+    /* background: blue; */
     border-radius: 8px;
+    border: 1px solid var(--borders_color);
+    transition: .2s all ease-in-out;
 }
 
 .side-menu a {
@@ -29,4 +31,15 @@
     color: white;
 }
 
+
+.side-menu .active{
+    background: var(--restic_blue);
+    border: 1px solid var(--restic_blue);
+}
+
+.side-menu li:not(.active):hover{
+    background: var(--restic_purple);
+    border: 1px solid var(--restic_purple);
+
+}
 
