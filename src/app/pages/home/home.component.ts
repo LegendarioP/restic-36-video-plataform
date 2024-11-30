@@ -7,7 +7,7 @@ import { Video } from '../../interfaces/video';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent],
+  imports: [],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
   host: {

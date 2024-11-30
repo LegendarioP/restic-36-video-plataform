@@ -3,6 +3,7 @@ export interface Video {
     title: string,
     description: string,
     url: string,
+    video_url?: string,
     thumbnail: string,
     views: number,
     uploadedAt: Date
