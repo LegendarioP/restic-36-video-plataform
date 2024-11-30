@@ -1,1 +1,22 @@
-<p>{{title}}</p>
+
+<h3 class="video-search-title">Exibindo resultados para: {{title}}</h3>
+<section class="video-contaienr">
+    @for(video of videos; track video.id){
+        <div class="card-video">
+            <div class="imagem-field">
+                <a href="/video/{{video.id}}">
+                    <img src="{{video.thumbnail}}" alt="{{video.title}}">
+                </a>
+            </div>
+    
+            <div class="info-area">
+                <a href="/video/{{video.id}}">
+                    <h2 class="title">{{video.title}}</h2>
+                </a>
+                <div class="video-more-info">
+                    {{video.views}}
+                </div>
+            </div>
+        </div>
+    }
+</section>

@@ -9,6 +9,8 @@
 .video-title {
     font-size: 2rem;
     font-weight: 600;
+    display: flex;
+    justify-content: space-between;
 }
 
 .box-video-area {
@@ -35,4 +37,9 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.favorite {
+    display: flex;
+    align-items: center;
 }

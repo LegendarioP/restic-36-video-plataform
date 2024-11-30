@@ -24,12 +24,12 @@ header{
 /* center header */
 .center-header {
     display: flex;
-    width: 300px;
+    width: 50%;
 }
 
 .center-header input {
     width: 100%;
-    padding: 10px;
+    padding: 16px;
     outline: none;
     border-width: 1px 0px 1px 1px;
     border-style: solid;
@@ -46,7 +46,7 @@ header{
     border-style: solid;
     background: transparent;
     border-color: var(--borders_color);
-    padding: 0 8px;
+    padding: 0 12px;
     box-sizing: border-box;
     outline: none;
     align-items: center;

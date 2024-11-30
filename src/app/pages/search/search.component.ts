@@ -8,7 +8,10 @@ import { Video } from '../../interfaces/video';
   standalone: true,
   imports: [],
   templateUrl: './search.component.html',
-  styleUrl: './search.component.css'
+  styleUrl: './search.component.css',
+  host: {
+    class: 'flex-component max col'
+  }
 })
 
 

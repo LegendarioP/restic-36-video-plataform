@@ -13,16 +13,16 @@
       "socialLoginProvider": "Facebook"
     },
     {
-      "id": "104996704995693380000",
-      "name": "undefined",
-      "email": "undefined",
+      "id": "104996704995693375945",
+      "name": "Pablo Luan",
+      "email": "pablolsl544@gmail.com",
       "socialLoginProvider": "google-oauth2"
     },
     {
-      "id": "104996704995693375945",
-      "name": "undefined",
-      "email": "undefined",
-      "socialLoginProvider": "google-oauth2"
+      "id": "674b7e90a11207c14c15a881",
+      "name": "teste@teste.com",
+      "email": "teste@teste.com",
+      "socialLoginProvider": "auth0"
     }
   ],
   "videos": [
@@ -32,7 +32,7 @@
       "description": "The official video for “Never Gonna Give You Up” by Rick Astley",
       "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
-      "views": 1200000041,
+      "views": 1200000091,
       "uploadedAt": "2009-10-25T07:57:33Z"
     },
     {
@@ -41,7 +41,7 @@
       "description": "Mark Ronson's official music video for 'Uptown Funk' ft. Bruno Mars.",
       "url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
       "thumbnail": "https://i.ytimg.com/vi/3JZ_D3ELwOQ/hqdefault.jpg",
-      "views": 4000000003,
+      "views": 4000000004,
       "uploadedAt": "2014-11-19T20:00:11Z"
     },
     {
@@ -77,7 +77,7 @@
       "description": "Videoclipe oficial de 'Hey Jude' dos The Beatles.",
       "url": "https://www.youtube.com/watch?v=A_MjCqQoLLA",
       "thumbnail": "https://i.ytimg.com/vi/A_MjCqQoLLA/hqdefault.jpg",
-      "views": 250000000,
+      "views": 250000003,
       "uploadedAt": "2015-10-02T00:00:00Z"
     },
     {
@@ -86,7 +86,7 @@
       "description": "Videoclipe oficial de 'Let It Be' dos The Beatles.",
       "url": "https://www.youtube.com/watch?v=QDYfEBY9NM4",
       "thumbnail": "https://i.ytimg.com/vi/QDYfEBY9NM4/hqdefault.jpg",
-      "views": 300000002,
+      "views": 300000003,
       "uploadedAt": "2018-05-23T12:00:00Z"
     },
     {
@@ -269,6 +269,11 @@
       "userId": 2,
       "videoId": 2,
       "id": "afe8"
+    },
+    {
+      "id": "8c85",
+      "userId": "674b7e90a11207c14c15a881",
+      "videoId": 1
     }
   ]
 }
