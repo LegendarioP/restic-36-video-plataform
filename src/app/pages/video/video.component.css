@@ -1,12 +1,38 @@
-app-video {
+.video-container {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    gap: 10px;
 }
 
-iframe {
+.video-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.box-video-area {
+    display: flex;
     width: 100%;
     height: 100%;
+}
+
+.box-video-area iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video-data {
+    display: flex;
+    justify-content: space-between;
+}
+.video-info .description {
+    font-size: .9rem;
+    max-height: 70px;
+    overflow-y: scroll;
+}
+.video-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }

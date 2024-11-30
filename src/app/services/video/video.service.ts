@@ -23,4 +23,8 @@ export class VideoService {
   getVid(id: number) {
     return this.httpClient.get<Video>(`${this.apiUrl}/${id}`)
   }
+  updateVidViews(id: number, views: Partial<Video>) {
+    return this.httpClient.patch<Video>(`${this.apiUrl}/${id}`, views)
+  }
+
 }

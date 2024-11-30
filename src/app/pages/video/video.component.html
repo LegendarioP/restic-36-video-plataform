@@ -1,17 +1,28 @@
-<p>{{id}}</p>
+<div class="video-container">
+    <div class="video-title">{{video?.title}}</div>
+    <div class="box-video-area">
+        <iframe 
+        [src]="video_url" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen="">
+       </iframe>       
+    </div>
+    <div class="video-info">
+        <div class="video-data">
+            <p class="views">Visualizações: {{video?.views}}</p>
+            <p class="launch">Lançamento: {{video?.uploadedAt | date: 'dd/MM/yyyy'}}</p>
+        </div>
+        <p class="description">
+            {{video?.description}}
+        </p>
+    </div>
+
+</div>
 
 
-{{video?.description}} <br>
-<!-- {{video?.url}} <br> -->
-<!-- {{video?.video_url}} -->
 
 
 
-<iframe 
- [src]="video_url" 
- title="YouTube video player" 
- frameborder="0" 
- allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
- referrerpolicy="strict-origin-when-cross-origin" 
- allowfullscreen="">
-</iframe>
