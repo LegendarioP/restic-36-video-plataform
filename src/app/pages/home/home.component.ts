@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from "../../header/header.component";
-import { HomeService } from './home.service';
+import { HeaderComponent } from "../../components/header/header.component";
+import { VideoService } from '../../services/video/video.service';
 import { Video } from '../../interfaces/video';
 
 @Component({
@@ -9,11 +9,14 @@ import { Video } from '../../interfaces/video';
   standalone: true,
   imports: [RouterOutlet, HeaderComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
+  host: {
+    class: 'flex-component'
+  }
 })
 export class HomeComponent implements OnInit {
   videos = Array<Video>()
-  constructor(private videoService: HomeService ){}
+  constructor(private videoService: VideoService ){}
 
   ngOnInit(): void {
     this.videoService

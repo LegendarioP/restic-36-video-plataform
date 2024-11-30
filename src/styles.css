@@ -53,3 +53,17 @@ p,
 h3 {
     margin: 0;
 }
+
+
+
+
+.flex-component {
+    display: flex;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

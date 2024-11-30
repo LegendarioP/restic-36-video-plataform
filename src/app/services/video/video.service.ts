@@ -7,13 +7,20 @@ import { Video } from '../../interfaces/video';
   providedIn: 'root'
 })
 
+@Injectable({
+  providedIn: 'root'
+})
+export class VideoService {
 
-export class HomeService {
   private apiUrl = 'http://localhost:3000/videos'
 
   constructor(private httpClient: HttpClient) { }
 
   getVids(): Observable<Video[]>{
     return this.httpClient.get<Video[]>(this.apiUrl)
+  }
+
+  getVid(id: number) {
+    return this.httpClient.get<Video>(`${this.apiUrl}/${id}`)
   }
 }

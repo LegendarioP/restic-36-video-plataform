@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-top: 1px solid var(--borders_color);
+}
+
+.footer p {
+    padding: 28px 0;
+}

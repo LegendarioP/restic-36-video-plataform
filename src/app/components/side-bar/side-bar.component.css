@@ -3,8 +3,11 @@
     display: flex;
     background: var(--background_color);
     height: 100%;
-    border: 1px solid var(--borders_color);
+    border-width: 1px 1px 0px 0px;
+    border-style: solid;
+    border-color: var(--borders_color);
     padding: 31px 25px;
+    box-sizing: border-box;
 }
 
 .side-menu ul {
