@@ -21,6 +21,45 @@ header{
     border-bottom: 1px solid var(--borders_color);
 }
 
+/* center header */
+.center-header {
+    display: flex;
+    width: 300px;
+}
+
+.center-header input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: var(--borders_color);
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    background: var(--background_color);
+    color: var(--text_color);
+    transition: .2s all ease-in-out;
+}
+.search-button {
+    display: flex;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    background: transparent;
+    border-color: var(--borders_color);
+    padding: 0 8px;
+    box-sizing: border-box;
+    outline: none;
+    align-items: center;
+    border-radius: 0 8px 8px 0;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+
+.center-header input:focus, 
+.center-header input:focus+.search-button {
+    border-color: var(--text_color);
+}
+
 .left-side-header {
     display: flex;
     align-items: center;
