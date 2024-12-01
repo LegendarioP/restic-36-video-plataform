@@ -32,7 +32,7 @@
       "description": "The official video for “Never Gonna Give You Up” by Rick Astley",
       "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
-      "views": 1200000111,
+      "views": 1200000112,
       "uploadedAt": "2009-10-25T07:57:33Z"
     },
     {
@@ -68,7 +68,7 @@
       "description": "A clip from Buck Privates from my VHS Tapes file. I do not own the rights, but love the movie.",
       "url": "https://www.youtube.com/watch?v=8of3uhG1tCI",
       "thumbnail": "https://i.ytimg.com/vi/8of3uhG1tCI/hqdefault.jpg",
-      "views": 18263729,
+      "views": 18263730,
       "uploadedAt": "2015-01-13T12:00:00Z"
     },
     {
@@ -77,7 +77,7 @@
       "description": "Videoclipe oficial de 'Hey Jude' dos The Beatles.",
       "url": "https://www.youtube.com/watch?v=A_MjCqQoLLA",
       "thumbnail": "https://i.ytimg.com/vi/A_MjCqQoLLA/hqdefault.jpg",
-      "views": 250000003,
+      "views": 250000004,
       "uploadedAt": "2015-10-02T00:00:00Z"
     },
     {
@@ -309,6 +309,11 @@
       "id": "b91d",
       "userId": "104996704995693375945",
       "videoId": 3
+    },
+    {
+      "id": "35a3",
+      "userId": "104996704995693375945",
+      "videoId": 7
     }
   ]
 }

@@ -103,6 +103,10 @@
     border-radius: 8px;
 }
 
+.video-search-title {
+    padding: 20px 40px 0;
+}
+
 
 @media(max-width:769px){
 
