@@ -87,3 +87,11 @@ h3 {
 .col {
     flex-direction: column;
 }
+
+@media(max-width:769px){
+    .flex-video {
+        padding: 20px;
+    }
+}
+
+

@@ -102,3 +102,19 @@
     background: var(--restic_blue);
     border-radius: 8px;
 }
+
+@media(max-width:769px){
+
+    .video-contaienr {
+        padding: 20px;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .video-contaienr .card-video {
+        width: 100%;
+    }
+    
+}
+
+

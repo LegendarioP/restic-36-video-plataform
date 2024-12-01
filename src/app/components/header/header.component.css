@@ -10,6 +10,7 @@
     gap: 8px;
     background: none;
     padding: 10px;
+    cursor: pointer;
 }
 
 header{
@@ -80,4 +81,20 @@ header{
 }
 .right-side-header button:hover {
     background: var(--restic_purple);
+}
+
+@media(max-width:769px){
+    .brand {
+        display: none;
+    }
+    .header {
+        padding: 10px !important;
+    }
+    .center-header input {
+        padding: 10px;
+    }
+    
+    .center-header .search-button {
+        padding: 0 6px;
+    }
 }

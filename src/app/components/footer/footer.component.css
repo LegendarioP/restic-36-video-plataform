@@ -8,3 +8,10 @@
 .footer p {
     padding: 28px 0;
 }
+
+@media(max-width:769px){
+    .footer p {
+        padding: 14px 0;
+    }
+}
+

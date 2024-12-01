@@ -42,4 +42,45 @@
 .favorite {
     display: flex;
     align-items: center;
+    padding: 2px 6px;
+    background: var(--restic_blue);
+    color: var(--text_color);
+    border-radius: 8px;
+    gap: 10px;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
 }
+.favorite:hover {
+    background: var(--restic_purple);
+}
+
+.video-info .description::-webkit-scrollbar {
+    width: 0px;
+}
+
+.video-container .video-title h3 {
+    font-size: 1.5rem;
+}
+
+@media(max-width:769px){
+    
+
+    .video-container .video-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .favorite button {
+        width: fit-content;
+        font-size: 0;
+        display: flex;
+    }
+    
+    div.video-container div.video-title h3 {
+        font-size: 1rem;
+    }
+}
+

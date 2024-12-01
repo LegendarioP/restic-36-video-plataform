@@ -43,3 +43,21 @@
 
 }
 
+
+.side-menu.menu-open {
+    width: max-content;
+}
+
+@media(max-width:769px){
+    .side-menu {
+        position: fixed;
+        left: -100%;
+        transition: .2s all ease-in-out;
+        background: var(--background_color);
+        z-index: 1020;
+    }
+    
+    .side-menu.menu-open {
+        left: 0;
+    }
+}
