@@ -26,7 +26,7 @@ export class SideBarComponent {
     });
 
     this.menuToggleService.menuStatus$.subscribe(status => {
-      this.menuOpen = status; // Atualiza o estado do menu conforme o valor recebido
+      this.menuOpen = status;
     });
   }
 }

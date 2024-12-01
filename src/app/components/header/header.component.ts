@@ -24,7 +24,7 @@ export class HeaderComponent implements OnInit {
 
   imagePath = 'restic-logo.png';
   profile?: User | undefined | null;
-  searchQuery: string = ''; // Bind com o ngModel
+  searchQuery: string = '';
   toogleNav: boolean = false
   
   ngOnInit(): void {
@@ -44,8 +44,7 @@ export class HeaderComponent implements OnInit {
     }
   }
   toggleMenu() {
-    // Envia um valor booleano para o serviço (true para aberto, false para fechado)
-    this.menuToggleService.toggleMenuStatus(); // Aqui você pode alternar entre true/false conforme necessário
+    this.menuToggleService.toggleMenuStatus();
   }
 
 
