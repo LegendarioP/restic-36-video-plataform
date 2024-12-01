@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Running database
 
-Run `npm run db` for a localdatabase with json-server. If you check data, Naviigate to `http://localhost:3000/`.
+Split your terminal and run `npm run db` for a localdatabase with json-server. If you check data, Naviigate to `http://localhost:3000/`.
 
 ## Code scaffolding
 
